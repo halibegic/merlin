@@ -76,6 +76,7 @@ section#home .overlay {
     background-color: rgba(0, 0, 0, .6);
 }
 section#home .container {
+    position: relative;
     padding: 180px 0 200px;
 }
 section#home h1 {
