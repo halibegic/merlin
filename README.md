@@ -1,5 +1,5 @@
 Merlin
 ======
-Free Twitter Bootstrap template.
+Free [Twitter Bootstrap](http://getbootstrap.com/) template.
 
 **[Download](https://github.com/halibegic/Merlin/archive/master.zip)**
