@@ -2,9 +2,9 @@
 body {
     color: #444;
     padding-top: 50px;
-}
-body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Source Sans Pro', sans-serif;
+}
+body, h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 .img-circle {
@@ -73,7 +73,7 @@ section#home {
     background-attachment: fixed;
 }
 section#home .overlay {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .6)
 }
 section#home .container {
     position: relative;
