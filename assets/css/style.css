@@ -1,0 +1,119 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,latin-ext);
+body {
+    color: #444;
+    padding-top: 50px;
+}
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.img-circle {
+    margin: 0 auto 30px
+}
+a {
+    color: #E1704B
+}
+a:hover {
+    color: #333333
+}
+.img-rounded {
+    border-radius: 6px
+}
+.btn {
+    padding: 8px 12px
+}
+#navigation {
+    background-color: #FFFFFF
+}
+#navigation .navbar-nav > .active > a, #navigation .navbar-nav > .active > a:hover {
+    color: #E1704B;
+    background-color: transparent;
+}
+#navigation .navbar-toggle {
+    border-color: transparent
+}
+#navigation .navbar-toggle:hover {
+    background-color: transparent
+}
+#navigation .navbar-toggle:hover .icon-bar {
+    background-color: #333333
+}
+section {
+    padding: 40px 0 60px;
+    border-top: 1px solid rgba(0, 0, 0, 0.04);
+}
+section:nth-child(even) {
+    background-color: #F5F5F5
+}
+section .heading h2 {
+    margin-bottom: 20px
+}
+section .heading div.border {
+    width: 80px;
+    height: 2px;
+    margin: 0 auto;
+    background: #666666;
+}
+section .heading p {
+    margin: 20px auto 60px
+}
+section#home {
+    border: 0;
+    padding: 180px 0 200px;
+    background-color: #ECE9E2;
+}
+section#home h1 {
+    margin-bottom: 20px;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+section#home a {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+section#home h4 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    -o-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+section#services {
+    padding-bottom: 0
+}
+section#services .col-lg-4 {
+    margin-bottom: 60px
+}
+section#work ul li {
+    margin: 15px 0
+}
+section#contact ul li span, section#contact ul li a {
+    display: block
+}
+section#contact ul li span {
+    font-size: 36px
+}
+section#contact ul li a {
+    margin: 15px 0
+}
+footer {
+    padding: 19px 0 20px;
+    border-top: 1px solid #E6E6E6;
+}
