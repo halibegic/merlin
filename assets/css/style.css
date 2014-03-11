@@ -22,6 +22,11 @@ a:hover {
 .btn {
     padding: 8px 12px
 }
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
 #navigation {
     background-color: #FFFFFF
 }
@@ -59,8 +64,19 @@ section .heading p {
 }
 section#home {
     border: 0;
+    padding: 0;
+    color: #fff;
+    position: relative;
+    background: url(../img/cover.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#home .overlay {
+    background-color: rgba(0, 0, 0, .6);
+}
+section#home .container {
     padding: 180px 0 200px;
-    background-color: #ECE9E2;
 }
 section#home h1 {
     margin-bottom: 20px;
