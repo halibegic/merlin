@@ -4,7 +4,7 @@ function initNavbar() {
         scrollOffset = 50,
         easing = 'swing';
 
-    $('.navbar-one-page ul.nav').onePageNav({
+    $('#navbar-top .navbar-default ul.nav').onePageNav({
         currentClass: 'active',
         changeHash: false,
         scrollSpeed: scrollSpeed,
@@ -15,7 +15,7 @@ function initNavbar() {
     });
 
     // Custom fix for external nav links
-    $('.go-to-by-scroll').click(function (e) {
+    $('.nav-external').click(function (e) {
         e.preventDefault();
         $('html, body').stop().animate({
             scrollTop: $($(this).attr("href")).offset().top - scrollOffset
@@ -23,7 +23,7 @@ function initNavbar() {
     });
 
     // Stick nav
-    $('.navbar-one-page').affix({
+    $('#navbar-top .navbar-default').affix({
         offset: {
             top: $('section#home').height()
         }

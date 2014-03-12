@@ -23,36 +23,36 @@ a:hover {
 .btn {
     padding: 8px 12px
 }
-.navbar-wrapper {
+#navbar-top {
     height: 51px
 }
-.navbar-one-page {
+.navbar-default {
     border-top: 0;
     margin-bottom: 0;
     border-radius: 0px;
     background-color: #fff;
 }
-.navbar-one-page .navbar-brand {
+.navbar-default .navbar-brand {
     text-transform: uppercase
 }
-.navbar-one-page .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a {
     color: #999;
     text-transform: uppercase;
 }
-.navbar-one-page .navbar-nav > .active > a, .navbar-one-page .navbar-nav > .active > a:hover {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
     color: #e1704b;
     background-color: transparent;
 }
-.navbar-one-page .navbar-toggle {
+.navbar-default .navbar-toggle {
     border-color: transparent
 }
-.navbar-one-page .navbar-toggle:hover {
+.navbar-default .navbar-toggle:hover {
     background-color: transparent
 }
-.navbar-one-page .navbar-toggle:hover .icon-bar {
+.navbar-default .navbar-toggle:hover .icon-bar {
     background-color: #333
 }
-.navbar-one-page.affix {
+.navbar-default.affix {
     top: 0;
     z-index: 99;
     width: 100%;
