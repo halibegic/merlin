@@ -25,7 +25,7 @@ function initNavbar() {
     // Stick nav
     $('#navbar-top .navbar-default').affix({
         offset: {
-            top: $('section#home').height()
+            top: $('#home').height()
         }
     });
 }

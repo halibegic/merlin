@@ -65,12 +65,15 @@ section:nth-child(even) {
     background-color: #f5f5f5
 }
 section .content {
-    padding: 40px 0 60px
+    padding: 5% 0
+}
+section .content.cover {
+    padding: 20% 0
 }
 section .heading h2 {
     margin-bottom: 20px
 }
-section .heading div.border {
+section .heading .border {
     width: 80px;
     height: 2px;
     margin: 0 auto;
@@ -79,18 +82,14 @@ section .heading div.border {
 section .heading p {
     margin: 20px auto 60px
 }
-section#home {
+#home {
     border: 0;
     padding: 0;
     color: #fff;
     background: url(../img/home-cover.jpg) no-repeat center center;
     background-size: cover;
 }
-section#home .content {
-    padding: 20% 0;
-    position: relative;
-}
-section#home h1 {
+#home h1 {
     margin-bottom: 20px;
     -webkit-animation-duration: 1s;
     -moz-animation-duration: 1s;
@@ -101,7 +100,7 @@ section#home h1 {
     -o-animation-delay: 0.5s;
     animation-delay: 0.5s;
 }
-section#home a {
+#home a {
     -webkit-animation-duration: 1s;
     -moz-animation-duration: 1s;
     -o-animation-duration: 1s;
@@ -111,17 +110,17 @@ section#home a {
     -o-animation-delay: 1.5s;
     animation-delay: 1.5s;
 }
-section#home a.btn {
+#home a.btn {
     color: #fff;
     border-width: 2px;
     border-color: #fff;
     text-transform: uppercase;
 }
-section#home a.btn:hover {
+#home a.btn:hover {
     color: #333;
     background-color: #fff;
 }
-section#home h4 {
+#home h4 {
     margin-top: 20px;
     margin-bottom: 0;
     -webkit-animation-duration: 1s;
@@ -133,23 +132,33 @@ section#home h4 {
     -o-animation-delay: 1.2s;
     animation-delay: 1.2s;
 }
-section#services {
+#services {
     border-top: 0;
     padding-bottom: 0;
 }
-section#services .col-lg-4 {
+#services .col-lg-4 {
     margin-bottom: 60px
 }
-section#work ul li {
+#work ul li {
     margin: 15px 0
 }
-section#contact ul li span, section#contact ul li a {
+#contact {
+    background: url(../img/contact-cover.jpg) no-repeat center center;
+    background-size: cover;
+}
+#contact, #contact a, #contact a:hover, #contact a:focus {
+    color: #fff
+}
+#contact .heading .border {
+    background-color: #fff
+}
+#contact ul li span, #contact ul li a {
     display: block
 }
-section#contact ul li span {
+#contact ul li span {
     font-size: 36px
 }
-section#contact ul li a {
+#contact ul li a {
     margin: 15px 0
 }
 footer {
