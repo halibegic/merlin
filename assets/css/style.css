@@ -65,7 +65,6 @@ section#home {
     color: #fff;
     background: url(../img/home-cover.jpg) no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
 }
 section#home .content {
     position: relative;
