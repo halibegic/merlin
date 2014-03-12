@@ -1,17 +1,18 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,latin-ext);
 body {
     color: #444;
-    padding-top: 50px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 body, h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
+    font-weight: 400
+}
+*, *:focus {
+    outline: none !important
 }
 .img-circle {
     margin: 0 auto 30px
 }
 a {
-    color: #E1704B
+    color: #e1704b
 }
 a:hover {
     color: #333
@@ -22,30 +23,49 @@ a:hover {
 .btn {
     padding: 8px 12px
 }
-#navigation {
-    background-color: #fff
+.navbar-wrapper {
+    height: 51px
 }
-#navigation .navbar-nav > .active > a, #navigation .navbar-nav > .active > a:hover {
-    color: #E1704B;
+.navbar-one-page {
+    border-top: 0;
+    margin-bottom: 0;
+    border-radius: 0px;
+    background-color: #fff;
+}
+.navbar-one-page .navbar-brand {
+    text-transform: uppercase
+}
+.navbar-one-page .navbar-nav > li > a {
+    color: #999;
+    text-transform: uppercase;
+}
+.navbar-one-page .navbar-nav > .active > a, .navbar-one-page .navbar-nav > .active > a:hover {
+    color: #e1704b;
     background-color: transparent;
 }
-#navigation .navbar-toggle {
+.navbar-one-page .navbar-toggle {
     border-color: transparent
 }
-#navigation .navbar-toggle:hover {
+.navbar-one-page .navbar-toggle:hover {
     background-color: transparent
 }
-#navigation .navbar-toggle:hover .icon-bar {
+.navbar-one-page .navbar-toggle:hover .icon-bar {
     background-color: #333
 }
+.navbar-one-page.affix {
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    position: fixed;
+}
 section {
-    border-top: 1px solid rgba(0, 0, 0, 0.04);
+    border-top: 1px solid rgba(0, 0, 0, 0.04)
 }
 section:nth-child(even) {
-    background-color: #F5F5F5
+    background-color: #f5f5f5
 }
-section .content {    
-    padding: 40px 0 60px;
+section .content {
+    padding: 40px 0 60px
 }
 section .heading h2 {
     margin-bottom: 20px
@@ -54,7 +74,7 @@ section .heading div.border {
     width: 80px;
     height: 2px;
     margin: 0 auto;
-    background: #666;
+    background: #e1704b;
 }
 section .heading p {
     margin: 20px auto 60px
@@ -68,9 +88,8 @@ section#home {
     background-attachment: fixed;
 }
 section#home .content {
+    padding: 20% 0;
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
 }
 section#home h1 {
     margin-bottom: 20px;
@@ -93,6 +112,16 @@ section#home a {
     -o-animation-delay: 1.5s;
     animation-delay: 1.5s;
 }
+section#home a.btn {
+    color: #fff;
+    border-width: 2px;
+    border-color: #fff;
+    text-transform: uppercase;
+}
+section#home a.btn:hover {
+    color: #333;
+    background-color: #fff;
+}
 section#home h4 {
     margin-top: 20px;
     margin-bottom: 0;
@@ -106,7 +135,8 @@ section#home h4 {
     animation-delay: 1.2s;
 }
 section#services {
-    padding-bottom: 0
+    border-top: 0;
+    padding-bottom: 0;
 }
 section#services .col-lg-4 {
     margin-bottom: 60px
@@ -125,5 +155,5 @@ section#contact ul li a {
 }
 footer {
     padding: 5px 0;
-    border-top: 1px solid #E6E6E6;
+    border-top: 1px solid #e6e6e6;
 }
