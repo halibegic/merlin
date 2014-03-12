@@ -14,4 +14,4 @@ Free one page template with [Twitter Bootstrap](http://getbootstrap.com/) framew
 ### Credits
  * [jQuery](http://jquery.com/)
  * [Bootstrap](http://getbootstrap.com/)
- * [jQuery ScrollTo] (http://flesler.blogspot.com/2007/10/jqueryscrollto.html)
+ * [jQuery Scroll To] (http://flesler.blogspot.com/2007/10/jqueryscrollto.html)
