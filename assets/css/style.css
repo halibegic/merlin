@@ -14,7 +14,7 @@ a {
     color: #E1704B
 }
 a:hover {
-    color: #333333
+    color: #333
 }
 .img-rounded {
     border-radius: 6px
@@ -22,14 +22,8 @@ a:hover {
 .btn {
     padding: 8px 12px
 }
-.overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: rgba(0, 0, 0, .5)
-}
 #navigation {
-    background-color: #FFFFFF
+    background-color: #fff
 }
 #navigation .navbar-nav > .active > a, #navigation .navbar-nav > .active > a:hover {
     color: #E1704B;
@@ -42,14 +36,16 @@ a:hover {
     background-color: transparent
 }
 #navigation .navbar-toggle:hover .icon-bar {
-    background-color: #333333
+    background-color: #333
 }
 section {
-    padding: 40px 0 60px;
     border-top: 1px solid rgba(0, 0, 0, 0.04);
 }
 section:nth-child(even) {
     background-color: #F5F5F5
+}
+section .content {    
+    padding: 40px 0 60px;
 }
 section .heading h2 {
     margin-bottom: 20px
@@ -58,7 +54,7 @@ section .heading div.border {
     width: 80px;
     height: 2px;
     margin: 0 auto;
-    background: #666666;
+    background: #666;
 }
 section .heading p {
     margin: 20px auto 60px
@@ -67,15 +63,14 @@ section#home {
     border: 0;
     padding: 0;
     color: #fff;
-    position: relative;
-    background: url(../img/home-cover.jpg) no-repeat center;
-    -webkit-background-size: cover;
+    background: url(../img/home-cover.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
-section#home .container {
+section#home .content {
     position: relative;
-    padding: 180px 0 200px;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 section#home h1 {
     margin-bottom: 20px;
@@ -129,6 +124,6 @@ section#contact ul li a {
     margin: 15px 0
 }
 footer {
-    padding: 19px 0 20px;
+    padding: 5px 0;
     border-top: 1px solid #E6E6E6;
 }
