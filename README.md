@@ -9,3 +9,8 @@ Free one page template with [Twitter Bootstrap](http://getbootstrap.com/) framew
 ### Download
 
 **[https://github.com/halibegic/Merlin/archive/master.zip](https://github.com/halibegic/Merlin/archive/master.zip)**
+
+
+### Credits
+ * [jQuery](http://jquery.com/)
+ * [Bootstrap](http://getbootstrap.com/)
