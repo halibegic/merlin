@@ -36,8 +36,7 @@ a:hover {
     text-transform: uppercase
 }
 .navbar-default .navbar-nav > li > a {
-    color: #999;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
     color: #e1704b;
@@ -152,16 +151,41 @@ section .heading p {
 #contact .heading .border {
     background-color: #fff
 }
-#contact ul li span, #contact ul li a {
+#contact ul li a {
     display: block
-}
-#contact ul li span {
-    font-size: 36px
 }
 #contact ul li a {
     margin: 15px 0
 }
 footer {
-    padding: 5px 0;
-    border-top: 1px solid #e6e6e6;
+    color: #ccc;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #262626;
+}
+footer a {
+    color: #fff
+}
+footer a:hover, footer a:focus {
+    color: #fff
+}
+footer .social {
+    padding: 0;
+    list-style: none;
+}
+footer .social li {
+    margin: 10px;
+    display: inline-block;
+}
+footer .social li .facebook:hover, footer .social li .facebook:focus {
+    color: #3b5998
+}
+footer .social li .twitter:hover, footer .social li .twitter:focus {
+    color: #4099ff
+}
+footer .social li .google-plus:hover, footer .social li .google-plus:focus {
+    color: #d34836
+}
+footer .copyright {
+    margin-bottom: 0
 }
