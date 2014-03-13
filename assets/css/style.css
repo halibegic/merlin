@@ -24,7 +24,7 @@ a:hover {
     padding: 8px 12px
 }
 #navbar-top {
-    height: 51px
+    min-height: 51px
 }
 .navbar-default {
     border-top: 0;
@@ -46,7 +46,7 @@ a:hover {
 .navbar-default .navbar-toggle {
     border-color: transparent
 }
-.navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: transparent
 }
 .navbar-default .navbar-toggle:hover .icon-bar {
