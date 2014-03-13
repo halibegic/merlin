@@ -37,3 +37,7 @@ $(document).ready(function () {
     initNavbar();
     initTooltip();
 });
+$(window).load(function() { 
+	$(".loader .fading-line").delay(500).fadeOut(); 
+	$(".loader").delay(1000).fadeOut("slow");
+});
