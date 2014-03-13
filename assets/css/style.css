@@ -76,7 +76,7 @@ section .heading .border {
     width: 80px;
     height: 2px;
     margin: 0 auto;
-    background: #e1704b;
+    background-color: #e1704b;
 }
 section .heading p {
     margin: 20px auto 60px
@@ -85,7 +85,9 @@ section .heading p {
     border: 0;
     padding: 0;
     color: #fff;
-    background: url(../img/home-cover.jpg) no-repeat center center;
+    background-image: url(../img/home-cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
 }
 #home h1 {
@@ -142,7 +144,9 @@ section .heading p {
     margin: 15px 0
 }
 #contact {
-    background: url(../img/contact-cover.jpg) no-repeat center center;
+    background: url(../img/contact-cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
 }
 #contact, #contact a, #contact a:hover, #contact a:focus {
@@ -186,6 +190,37 @@ footer .social li .twitter:hover, footer .social li .twitter:focus {
 footer .social li .google-plus:hover, footer .social li .google-plus:focus {
     color: #d34836
 }
-footer .copyright {
-    margin-bottom: 0
+footer .social li .dribbble:hover, footer .social li .dribbble:focus {
+    color: #ea4c89;
+}
+footer .back-to-top {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+footer .back-to-top:hover, footer .back-to-top:focus {
+    color: #333;
+    background-color: #fff;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+}
+footer .back-to-top .fa {
+    top: -4px;
+    position: relative;
 }
