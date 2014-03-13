@@ -152,11 +152,7 @@ section .heading p {
     animation-delay: 1.2s;
 }
 #services {
-    border-top: 0;
-    padding-bottom: 0;
-}
-#services .col-lg-4 {
-    margin-bottom: 60px
+    border-top: 0
 }
 #work ul li {
     margin: 15px 0
