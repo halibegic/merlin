@@ -38,6 +38,6 @@ $(document).ready(function () {
     initTooltip();
 });
 $(window).load(function() { 
-	$(".loader .fading-line").delay(500).fadeOut(); 
-	$(".loader").delay(1000).fadeOut("slow");
+	$(".loader .fading-line").delay(100).fadeOut(); 
+	$(".loader").delay(200).fadeOut("slow");
 });
