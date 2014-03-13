@@ -11,5 +11,6 @@ Free one page template with [Twitter Bootstrap](http://getbootstrap.com/) framew
  * [jQuery](http://jquery.com/)
  * [Bootstrap](http://getbootstrap.com/)
  * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+ * [Animate.css](http://daneden.github.io/animate.css/)
  * [jQuery Scroll To](http://flesler.blogspot.com/2007/10/jqueryscrollto.html)
  * [jQuery One Page Nav](https://github.com/davist11/jQuery-One-Page-Nav)
