@@ -73,7 +73,6 @@ a:hover {
     top: 0;
     z-index: 99;
     width: 100%;
-    position: fixed;
 }
 section {
     border-top: 1px solid rgba(0, 0, 0, 0.04)
