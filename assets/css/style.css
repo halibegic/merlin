@@ -256,10 +256,7 @@ a:hover, a:focus {
     text-align: center;
     background-color: #333;
 }
-#footer a {
-    color: #fff
-}
-#footer a:hover, #footer a:focus {
+#footer a, #footer a:hover, #footer a:focus {
     color: #fff
 }
 #footer .social {
@@ -289,7 +286,7 @@ a:hover, a:focus {
     }
 }
 @media screen and (max-width: 991px) { 
-    #clients #testimonials p.quote {
+    #clients #testimonials .quote {
         padding: 0 70px
     }
 }
@@ -297,7 +294,7 @@ a:hover, a:focus {
     .page .content.cover {
         padding: 160px 0
     }
-    #clients #testimonials p.quote {
+    #clients #testimonials .quote {
         padding: 0 50px
     }
     #clients #testimonials .carousel-control.right {
@@ -308,7 +305,7 @@ a:hover, a:focus {
     .page .content.cover {
         padding: 80px 0
     }
-    #clients #testimonials p.quote {
+    #clients #testimonials .quote {
         padding: 0 30px
     }
 }
