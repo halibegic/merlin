@@ -171,9 +171,58 @@ section .heading p {
     color: #fff;
     background-color: #2a3940;
 }
-#clients blockquote {
-    border-left: 0;
-    margin-bottom: 0;
+#clients #testimonials .item {
+    margin-bottom: 60px
+}
+#clients #testimonials .quote {
+    font-size: 16px;
+    margin-bottom: 25px;
+    padding: 0 100px;
+    margin-top: 25px;
+    line-height: 1.6;
+}
+#clients #testimonials .client {
+    font-size: 12px
+}
+#clients #testimonials .carousel-indicators .active {
+    width: 9px;
+    height: 9px;
+    margin: 1px;
+    cursor: default;
+    background: #7FC350;
+    border: solid 1px rgba(255,255,255,0.7);
+}
+#clients #testimonials .carousel-indicators li {
+    background: none;
+    border: 1px solid rgba(255,255,255,0.7);
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+#clients #testimonials .carousel-indicators li:hover {
+    background: rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,255,255,0.7);
+}
+#clients #testimonials .carousel-indicators {
+    bottom: 5px
+}
+#clients #testimonials .carousel-indicators li {
+    width: 9px;
+    height: 9px;
+    border-radius: 2px;
+    display: inline-block;
+}
+#clients #testimonials .carousel-control {
+    top: 15%;
+    margin: 0;
+    width: 0%;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: none;
+}
+#clients #testimonials .carousel-control.left, #clients #testimonials .carousel-control.right {
+    background-image: none
 }
 #contact {
     background: url(../img/contact-cover.jpg);
@@ -224,4 +273,23 @@ footer .social li .google-plus:hover, footer .social li .google-plus:focus {
 }
 footer .social li .dribbble:hover, footer .social li .dribbble:focus {
     color: #ea4c89
+}
+/* Responsiv */
+@media screen and (max-width: 991px) { 
+    #clients #testimonials p.quote {
+        padding: 0 70px
+    }
+}
+@media (max-width: 767px) { 
+    #clients #testimonials p.quote {
+        padding: 0 50px
+    }
+    #clients #testimonials .carousel-control.right {
+        right: 10px
+    }
+}
+@media (max-width: 480px) { 
+    #clients #testimonials p.quote {
+        padding: 0 30px
+    }
 }
