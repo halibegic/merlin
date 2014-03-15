@@ -1,0 +1,6 @@
+- Fix responsiv on icons for service section
+- Google for row class
+- Create blog
+- Create client logos
+- Create new design for work section
+- Create new design for about section
