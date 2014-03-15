@@ -99,9 +99,6 @@ a:hover, a:focus {
 section {
     border-top: 1px solid rgba(0, 0, 0, 0.04)
 }
-section:nth-child(even) {
-    background-color: #f5f5f5
-}
 section .content {
     padding: 5% 0
 }
@@ -164,7 +161,8 @@ section .heading p {
     animation-delay: 1.2s;
 }
 #services {
-    border-top: 0
+    border-top: 0;
+    background-color: #f5f5f5;
 }
 #work ul li {
     margin: 15px 0
