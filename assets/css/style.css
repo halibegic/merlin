@@ -172,7 +172,8 @@ section .heading p {
     background-color: #2a3940;
 }
 #clients blockquote {
-    border-left: 0
+    border-left: 0;
+    margin-bottom: 0;
 }
 #contact {
     background: url(../img/contact-cover.jpg);
