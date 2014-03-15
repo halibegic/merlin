@@ -91,7 +91,7 @@ a:hover, a:focus {
     top: 0;
     width: 100%;
     z-index: 99;
-    border-bottom: 0; 
+    border-bottom: 0;
     -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.14);
     -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.14);
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.14);
@@ -171,7 +171,7 @@ section .heading p {
 }
 #clients {
     color: #fff;
-    background-color: #2a3940
+    background-color: #2a3940;
 }
 #clients blockquote {
     border-left: 0
@@ -224,5 +224,5 @@ footer .social li .google-plus:hover, footer .social li .google-plus:focus {
     color: #d34836
 }
 footer .social li .dribbble:hover, footer .social li .dribbble:focus {
-    color: #ea4c89;
+    color: #ea4c89
 }
