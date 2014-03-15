@@ -16,6 +16,12 @@ a:hover, a:focus {
     color: #0c86b6;
     text-decoration: none;
 }
+.hiding {
+    opacity: 0
+}
+.showing {
+    opacity: 1
+}
 .img-rounded {
     border-radius: 6px
 }
@@ -92,6 +98,9 @@ a:hover, a:focus {
     -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.14);
     -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.14);
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.14);
+}
+.page {
+    overflow-x: hidden
 }
 .page .content {
     padding: 60px 0
@@ -236,10 +245,10 @@ a:hover, a:focus {
     background-color: #fff
 }
 #contact a {
-    display: block;
+    display: block
 }
-#contact i {    
-    margin: 60px 0 15px;
+#contact i {
+    margin: 60px 0 15px
 }
 #footer {
     color: #ccc;
