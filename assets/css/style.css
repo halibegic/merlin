@@ -215,6 +215,11 @@ a:hover, a:focus {
     font-size: 16px;
     padding: 0 90px;
 }
+#clients #testimonials .quote:before {
+    content: '\f10d';
+    margin-right: 10px;
+    font-family: FontAwesome;
+}
 #clients #testimonials .client {
     color: #ccc
 }
