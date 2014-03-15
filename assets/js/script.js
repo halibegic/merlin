@@ -29,11 +29,6 @@ function initNavbar() {
         }
     });
 }
-
-function initTooltip() {
-    $('.tip').tooltip();
-}
-
 function initAnimations() {
     $('.animated').appear(function () {
         var el = $(this);
@@ -56,7 +51,6 @@ function initAnimations() {
 }
 $(document).ready(function () {
     initNavbar();
-    initTooltip();
     initAnimations();
 });
 $(window).load(function () {

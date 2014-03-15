@@ -1,4 +1,3 @@
 - Create blog
 - Create new design for work section
 - Create new design for about section
-- Download bootstrap without icons, modal, alerts...
