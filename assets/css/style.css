@@ -23,9 +23,9 @@ a:hover, a:focus {
     opacity: 1
 }
 .img-rounded {
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
 .btn {
     font-size: 12px;
@@ -246,10 +246,10 @@ a:hover, a:focus {
     padding-top: 10px
 }
 #about .teammate .photo {
-    position: relative;
     overflow: hidden;
-    display: block;
-    max-width: 100%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
 #about .teammate .photo img {
     -webkit-transition: all .4s ease;
