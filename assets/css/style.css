@@ -45,7 +45,7 @@ a:hover, a:focus {
 }
 .btn-blue:hover, .btn-blue:focus {
     color: #fff;
-    background-color: #2A3940;
+    background-color: #2a3940;
 }
 .btn-green {
     color: #fff;
@@ -53,15 +53,15 @@ a:hover, a:focus {
 }
 .btn-green:hover, .btn-green:focus {
     color: #fff;
-    background-color: #2A3940;
+    background-color: #2a3940;
 }
 .btn-dark {
     color: #fff;
-    background-color: #2A3940;
+    background-color: #2a3940;
 }
 .btn-dark:hover, .btn-dark:focus {
     color: #fff;
-    background-color: #2A3940;
+    background-color: #2a3940;
 }
 .loader {
     width: 100%;
@@ -135,7 +135,7 @@ a:hover, a:focus {
     margin-top: 0;
     margin-bottom: 20px;
 }
-.page .heading .border {
+.page .border {
     width: 80px;
     height: 2px;
     margin: 0 auto;
@@ -190,7 +190,7 @@ a:hover, a:focus {
 }
 #services {
     background-color: #f5f5f5;
-    border-bottom: 1px solid #e7e7e7;
+    border-bottom: solid 1px #e7e7e7;
 }
 #services i {
     margin-top: 60px
@@ -206,7 +206,7 @@ a:hover, a:focus {
 }
 #clients {
     color: #fff;
-    background-color: #2A3940;
+    background-color: #2a3940;
 }
 #clients #testimonials .item {
     margin-bottom: 30px
@@ -218,7 +218,7 @@ a:hover, a:focus {
 #clients #testimonials .quote:before {
     content: '\f10d';
     margin-right: 10px;
-    font-family: FontAwesome;
+    font-family: fontawesome;
 }
 #clients #testimonials .client {
     color: #ccc
@@ -260,23 +260,46 @@ a:hover, a:focus {
 #about .content {
     padding-bottom: 0
 }
-#about img {
-    margin: 60px auto 30px
+#about .teammate {
+    margin-top: 60px;
 }
-#about h5 {
+#about .teammate .bio {   
+    padding: 10px 10px 20px;
+    border: solid 1px #f2f2f2;
+}
+#about .teammate .bio .border {
+    height: 1px;
+    margin: 20px auto;
+}
+#about .teammate .bio ul {
+    font-size: 18px;
+    margin-top: 20px;
+}
+#about .teammate .bio a {
+    color: #777
+}
+#about .teammate h5, #about .teammate p, #about .teammate ul {
     margin-bottom: 0
+}
+#about .teammate:hover .bio, #about .teammate:focus .bio {
+    color: #fff;
+    border-color: transparent;
+    background-color: #0093cf;
+}
+#about .teammate:hover a, #about .teammate:focus a {
+    color: #fff
 }
 #about .twitter {
     padding: 20px 0;
     margin-top: 60px;
-    background-color: #F5F5F5;
-    border-top: 1px solid #E7E7E7;
+    background-color: #f5f5f5;
+    border-top: solid 1px #e7e7e7;
 }
 #about .twitter p {
     margin-bottom: 0
 }
 #about .twitter i {
-    color: #00ACED;
+    color: #00aced;
     margin-bottom: 10px;
 }
 #contact {
@@ -301,7 +324,7 @@ a:hover, a:focus {
     color: #ccc;
     padding: 40px 0;
     text-align: center;
-    background-color: #2A3940;
+    background-color: #2a3940;
 }
 #footer a, #footer a:hover, #footer a:focus {
     color: #fff
@@ -313,7 +336,7 @@ a:hover, a:focus {
     color: #3b5998
 }
 #footer .social li .twitter:hover, #footer .social li .twitter:focus {
-    color: #00ACED
+    color: #00aced
 }
 #footer .social li .google-plus:hover, #footer .social li .google-plus:focus {
     color: #d34836
