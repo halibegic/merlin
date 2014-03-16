@@ -35,7 +35,8 @@ function initPortfolio () {
     items.imagesLoaded(function() {
         items.isotope({
             itemSelector: '.item',
-            layoutMode: 'fitRows'
+            layoutMode: 'fitRows',
+            transitionDuration: '0.7s'
         });
     });
     
