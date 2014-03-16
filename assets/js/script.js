@@ -14,7 +14,6 @@ function initNavbar() {
         easing: easing
     });
 
-    // Custom fix for external nav links
     $('.nav-external').click(function (e) {
         e.preventDefault();
         $('html, body').stop().animate({
@@ -22,13 +21,13 @@ function initNavbar() {
         }, scrollSpeed, easing);
     });
 
-    // Stick nav
     $('#navbar-top .navbar-default').affix({
         offset: {
             top: $('#home').height()
         }
     });
 }
+
 function initAnimations() {
     $('.animated').appear(function () {
         var el = $(this);
@@ -49,11 +48,31 @@ function initAnimations() {
         accY: -80
     });
 }
+
+function initTwitterFeed() {
+    /* More about fetch params on http://www.jasonmayes.com/projects/twitterApi */
+    twitterFetcher.fetch('347101057018638336', '', 1, true, false, false, '', true, handleTweets, false);
+}
 $(document).ready(function () {
     initNavbar();
     initAnimations();
+    initTwitterFeed();
 });
 $(window).load(function () {
     $(".loader .fading-line").fadeOut();
     $(".loader").fadeOut("slow");
 });
+function handleTweets(tweets) {
+    var element = document.getElementById('feed');
+    if (element) {
+        var x = tweets.length;
+        var n = 0;
+        var html = '<ul class="list-inline">';
+        while (n < x) {
+            html += '<li>' + tweets[n] + '</li>';
+            n++;
+        }
+        html += '</ul>';
+        element.innerHTML = html;
+    }
+}

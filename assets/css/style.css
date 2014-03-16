@@ -257,11 +257,27 @@ a:hover, a:focus {
     text-shadow: none;
     background-image: none;
 }
+#about .content {
+    padding-bottom: 0
+}
 #about img {
     margin: 60px auto 30px
 }
 #about h5 {
     margin-bottom: 0
+}
+#about .twitter {
+    padding: 20px 0;
+    margin-top: 60px;
+    background-color: #F5F5F5;
+    border-top: 1px solid #E7E7E7;
+}
+#about .twitter p {
+    margin-bottom: 0
+}
+#about .twitter i {
+    color: #00ACED;
+    margin-bottom: 10px;
 }
 #contact {
     background: url(../img/contact-cover.jpg);
@@ -291,24 +307,22 @@ a:hover, a:focus {
     color: #fff
 }
 #footer .social {
-    padding: 0;
-    list-style: none;
-}
-#footer .social li {
-    margin: 10px;
-    display: inline-block;
+    margin-bottom: 20px
 }
 #footer .social li .facebook:hover, #footer .social li .facebook:focus {
     color: #3b5998
 }
 #footer .social li .twitter:hover, #footer .social li .twitter:focus {
-    color: #4099ff
+    color: #00ACED
 }
 #footer .social li .google-plus:hover, #footer .social li .google-plus:focus {
     color: #d34836
 }
 #footer .social li .dribbble:hover, #footer .social li .dribbble:focus {
     color: #ea4c89
+}
+#footer .copyright {
+    margin-bottom: 0
 }
 /* responsive */
 @media screen and (max-width: 1024px) { 
