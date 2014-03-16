@@ -48,12 +48,24 @@
                     </div>
                     <div class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="#home">Home</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#work">Work</a></li>
-                            <li><a href="#clients">Clients</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li class="active">
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                            <li>
+                                <a href="#work">Work</a>
+                            </li>
+                            <li>
+                                <a href="#clients">Clients</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -70,17 +82,17 @@
                     <div class="row">
                         <div class="col-lg-4 service animated hiding" data-animation="fadeInUp" data-delay="300">
                             <i class="fa fa-globe fa-5x"></i>
-                            <h3><a href="#">Web Design</a></h3>
+                            <h3><a href="javascript:void(0)">Web Design</a></h3>
                             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
                         </div>
                         <div class="col-lg-4 service animated hiding" data-animation="fadeInUp" data-delay="600">
                             <i class="fa fa-cloud fa-5x"></i>
-                            <h3><a href="#">Web Development</a></h3>
+                            <h3><a href="javascript:void(0)">Web Development</a></h3>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau dantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
                         </div>
                         <div class="col-lg-4 service animated hiding" data-animation="fadeInUp" data-delay="900">
                             <i class="fa fa-mobile fa-5x"></i>
-                            <h3><a href="#">Mobile Development</a></h3>
+                            <h3><a href="javascript:void(0)">Mobile Development</a></h3>
                             <p>Aliquam aliquet, est a ullamcorper condimentum, tellus nulla fringilla elit, a iaculis nulla turpis sed wisi. Fusce volutpat. Etiam sodales ante id nunc. Proin ornare dignissim lacus.</p>
                         </div>
                     </div>
@@ -96,44 +108,74 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, alias enim placeat earum quos ab.</p>
                     </div>
                     <div class="row">
-                        <ul class="list-unstyled">
-                            <li class="col-xs-6 col-sm-4 col-md-4 col-lg-4 animated hiding" data-animation="fadeIn">
-                                <a href="#">
-                                    <img src="assets/img/example.jpg" alt="" class="img-responsive img-rounded">
-                                    <h5>project name</h5>
-                                </a>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-4 col-lg-4 animated hiding" data-animation="fadeIn">
-                                <a href="#">
-                                    <img src="assets/img/example.jpg" alt="" class="img-responsive img-rounded">
-                                    <h5>project name</h5>
-                                </a>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-4 col-lg-4 animated hiding" data-animation="fadeIn">
-                                <a href="#">
-                                    <img src="assets/img/example.jpg" alt="" class="img-responsive img-rounded">
-                                    <h5>project name</h5>
-                                </a>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-4 col-lg-4 animated hiding" data-animation="fadeIn">
-                                <a href="#">
-                                    <img src="assets/img/example.jpg" alt="" class="img-responsive img-rounded">
-                                    <h5>project name</h5>
-                                </a>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-4 col-lg-4 animated hiding" data-animation="fadeIn">
-                                <a href="#">
-                                    <img src="assets/img/example.jpg" alt="" class="img-responsive img-rounded">
-                                    <h5>project name</h5>
-                                </a>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-4 col-lg-4 animated hiding" data-animation="fadeIn">
-                                <a href="#">
-                                    <img src="assets/img/example.jpg" alt="" class="img-responsive img-rounded">
-                                    <h5>project name</h5>
-                                </a>
-                            </li>
-                        </ul>
+                        <div class="col-md-12">
+                            <div id="portfolio">
+                                <ul class="filters list-inline">
+                                    <li>
+                                        <a class="active" href="#" data-filter="*">All</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-filter=".photography">Photography</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-filter=".branding">Branding</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-filter=".web">Web</a>
+                                    </li>
+                                </ul>
+                                <ul class="items list-unstyled animated hiding" data-animation="fadeInRight">
+                                    <li class="item branding">
+                                        <a href="javascript:void(0)">
+                                        <img src="assets/img/work/1.jpg" alt="">
+                                        <span>Etiam porta</span>
+                                        </a>
+                                    </li>
+                                    <li class="item photography">
+                                        <a href="javascript:void(0)">
+                                        <img src="assets/img/work/2.jpg" alt="">
+                                        <span>Lorem ipsum</span>
+                                        </a>
+                                    </li>
+                                    <li class="item branding">
+                                        <a href="javascript:void(0)">
+                                        <img src="assets/img/work/3.jpg" alt="">
+                                        <span>Vivamus quis</span>
+                                        </a>
+                                    </li>
+                                    <li class="item photography">
+                                        <a href="javascript:void(0)">
+                                        <img src="assets/img/work/4.jpg" alt="">
+                                        <span>Donec ac tellus</span>
+                                        </a>
+                                    </li>
+                                    <li class="item photography">
+                                        <a href="javascript:void(0)">
+                                        <img src="assets/img/work/5.jpg" alt="">
+                                        <span>Etiam volutpat</span>
+                                        </a>
+                                    </li>
+                                    <li class="item web">
+                                        <a href="javascript:void(0)">
+                                        <img src="assets/img/work/6.jpg" alt="">
+                                        <span>Donec congue </span>
+                                        </a>
+                                    </li>
+                                    <li class="item photography">
+                                        <a href="javascript:void(0)">
+                                        <img src="assets/img/work/7.jpg" alt="">
+                                        <span>Nullam a ullamcorper diam</span>
+                                        </a>
+                                    </li>
+                                    <li class="item web">
+                                        <a href="javascript:void(0)">
+                                        <img src="assets/img/work/8.jpg" alt="">
+                                        <span>Etiam consequat</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -194,10 +236,18 @@
                                 <div class="border"></div>
                                 <p>Lorem ipsum dolor sit, consetetur sadipscing elitr, diam nonumy eirmod tempor invidunt ut labore.</p>
                                 <ul class="list-inline">
-                                    <li><a href="http://www.facebook.com" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="http://www.twitter.com" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="http://www.linkedin.com" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="http://www.github.com" title="GitHub"><i class="fa fa-github"></i></a></li>
+                                    <li>
+                                        <a href="http://www.facebook.com" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.twitter.com" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.linkedin.com" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.github.com" title="GitHub"><i class="fa fa-github"></i></a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -211,9 +261,15 @@
                                 <div class="border"></div>
                                 <p>Lorem ipsum dolor sit, consetetur sadipscing elitr, diam nonumy eirmod tempor invidunt ut labore.</p>
                                 <ul class="list-inline">
-                                    <li><a href="http://www.dribbble.com" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>
-                                    <li><a href="http://www.pinterest.com" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="http://www.instagram.com" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                                    <li>
+                                        <a href="http://www.dribbble.com" title="Dribbble"><i class="fa fa-dribbble"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.pinterest.com" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.instagram.com" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -227,9 +283,15 @@
                                 <div class="border"></div>
                                 <p>Lorem ipsum dolor sit, consetetur sadipscing elitr, diam nonumy eirmod tempor invidunt ut labore.</p>
                                 <ul class="list-inline">
-                                    <li><a href="http://www.twitter.com" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="http://developer.android.com/index.html" title="Android Developers"><i class="fa fa-android"></i></a></li>
-                                    <li><a href="http://www.stackoverflow.com" title="Stack Overflow"><i class="fa fa-stack-overflow"></i></a></li>
+                                    <li>
+                                        <a href="http://www.twitter.com" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://developer.android.com/index.html" title="Android Developers"><i class="fa fa-android"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.stackoverflow.com" title="Stack Overflow"><i class="fa fa-stack-overflow"></i></a>
+                                    </li>
                                 </ul>
                             </div>
                             </p>
@@ -244,9 +306,15 @@
                                 <div class="border"></div>
                                 <p>Lorem ipsum dolor sit, consetetur sadipscing elitr, diam nonumy eirmod tempor invidunt ut labore.</p>
                                 <ul class="list-inline">
-                                    <li><a href="http://www.plus.google.com" title="Google+"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="http://www.trello.com" title="Trello"><i class="fa fa-trello"></i></a></li>
-                                    <li><a href="mailto:john.doe@mail.com" title="Email"><i class="fa fa-envelope"></i></a></li>
+                                    <li>
+                                        <a href="http://www.plus.google.com" title="Google+"><i class="fa fa-google-plus"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.trello.com" title="Trello"><i class="fa fa-trello"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:john.doe@mail.com" title="Email"><i class="fa fa-envelope"></i></a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -314,6 +382,7 @@
         </footer>
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.isotope.min.js"></script>
         <script src="assets/js/jquery.scrollTo.min.js"></script>
         <script src="assets/js/jquery.nav.min.js"></script>
         <script src="assets/js/jquery.appear.min.js"></script>
