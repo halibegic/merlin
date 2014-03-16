@@ -175,13 +175,54 @@ a:hover, a:focus {
     color: #71be3c
 }
 #work .heading p {
-    margin-bottom: 45px
+    margin-bottom: 60px
 }
-#work ul li {
-    margin-top: 15px
+#work #portfolio {
+    width: 100%
 }
-#work h5 {
+#work #portfolio .filters {
+    margin-bottom: 20px
+}
+#work #portfolio .filters li a {
+    color: #999;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#work #portfolio .filters li a:hover, #work #portfolio .filters li a:focus {
+    color: #333
+}
+#work #portfolio .filters li a.active {
+    color: #0093cf
+}
+#work #portfolio .items {
     margin-bottom: 0
+}
+#work #portfolio .items li {
+    width: 25%;
+    float: left;
+    position: relative;
+}
+#work #portfolio .items li a img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: 250ms linear all;
+    -moz-transition: 250ms linear all;
+    transition: 250ms linear all;
+}
+#work #portfolio .items li a span {
+    left: 20px;
+    bottom: 20px;
+    color: #fff;
+    font-size: 14px;
+    display: none;
+    position: absolute;
+}
+#work #portfolio .items li a:hover img {
+    -webkit-filter: grayscale(100%) brightness(0.3);
+    filter: grayscale(100%) brightness(0.3);
+}
+#work #portfolio .items li a:hover span {
+    display: block
 }
 #clients {
     color: #fff;
@@ -335,6 +376,42 @@ a:hover, a:focus {
 #footer .copyright {
     margin-bottom: 0
 }
+/* isotope */
+.isotope-item {
+    z-index: 2
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope, .isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+}
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
 /* responsive */
 @media screen and (max-width: 1024px) { 
     #clients #testimonials .carousel-control {
@@ -342,6 +419,9 @@ a:hover, a:focus {
     }
 }
 @media screen and (max-width: 991px) { 
+    #work #portfolio .items li {
+        width: 33%
+    }
     #clients #testimonials .quote {
         padding: 0 70px
     }
@@ -349,6 +429,9 @@ a:hover, a:focus {
 @media (max-width: 767px) { 
     .page .content.cover {
         padding: 160px 0
+    }
+    #work #portfolio .items li {
+        width: 50%
     }
     #clients #testimonials .quote {
         padding: 0 50px
@@ -360,6 +443,9 @@ a:hover, a:focus {
 @media (max-width: 480px) { 
     .page .content.cover {
         padding: 80px 0
+    }
+    #work #portfolio .items li {
+        width: 100%
     }
     #clients #testimonials .quote {
         padding: 0 30px

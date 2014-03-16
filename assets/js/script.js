@@ -27,7 +27,25 @@ function initNavbar() {
         }
     });
 }
+function initPortfolio () {
+    var portfolio = $('#portfolio');
+    var items = $('.items', portfolio); 
+    var filters = $('.filters li a', portfolio); 
 
+    items.isotope({
+        itemSelector: '.item',
+        layoutMode: 'fitRows'
+    });
+    
+    filters.click(function(){
+        var el = $(this);
+        filters.removeClass('active');
+        el.addClass('active');
+        var selector = el.attr('data-filter');
+        items.isotope({ filter: selector });
+        return false;
+    });   
+}
 function initAnimations() {
     $('.animated').appear(function () {
         var el = $(this);
@@ -62,6 +80,7 @@ function initTwitterFeed() {
 }
 $(document).ready(function () {
     initNavbar();
+    initPortfolio();
     initAnimations();
     initTwitterFeed();
 });
