@@ -32,9 +32,11 @@ function initPortfolio () {
     var items = $('.items', portfolio); 
     var filters = $('.filters li a', portfolio); 
 
-    items.isotope({
-        itemSelector: '.item',
-        layoutMode: 'fitRows'
+    items.imagesLoaded(function() {
+        items.isotope({
+            itemSelector: '.item',
+            layoutMode: 'fitRows'
+        });
     });
     
     filters.click(function(){
