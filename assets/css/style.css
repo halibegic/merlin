@@ -261,33 +261,42 @@ a:hover, a:focus {
     padding-bottom: 0
 }
 #about .teammate {
-    margin-top: 60px;
+    margin-top: 60px
 }
-#about .teammate .bio {   
-    padding: 10px 10px 20px;
-    border: solid 1px #f2f2f2;
+#about .teammate .bio {
+    padding-top: 10px
+}
+#about .teammate .photo {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    max-width: 100%;
+}
+#about .teammate .photo img {
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    transition: all .4s ease;
+}
+#about .teammate:hover .photo img, #about .teammate:focus .photo img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 #about .teammate .bio .border {
     height: 1px;
-    margin: 20px auto;
+    margin: 15px auto;
 }
 #about .teammate .bio ul {
-    font-size: 18px;
-    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 0;
 }
 #about .teammate .bio a {
-    color: #777
+    color: #666
 }
-#about .teammate h5, #about .teammate p, #about .teammate ul {
-    margin-bottom: 0
-}
-#about .teammate:hover .bio, #about .teammate:focus .bio {
-    color: #fff;
-    border-color: transparent;
-    background-color: #0093cf;
-}
-#about .teammate:hover a, #about .teammate:focus a {
-    color: #fff
+#about .teammate .bio a:hover, #about .teammate .bio a:focus {
+    color: #222
 }
 #about .twitter {
     padding: 20px 0;
