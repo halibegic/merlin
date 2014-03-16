@@ -1,6 +1,6 @@
 Merlin
 ======
-Free one page template with [Twitter Bootstrap](http://getbootstrap.com/) framework.
+Free template with [Twitter Bootstrap](http://getbootstrap.com/) framework.
 
 ### Download
 
