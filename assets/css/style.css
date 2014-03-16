@@ -147,7 +147,7 @@ a:hover, a:focus {
 #home {
     padding: 0;
     color: #fff;
-    background-image: url(../img/home-cover.jpg);
+    background-image: url(../img/cover/home.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -332,7 +332,7 @@ a:hover, a:focus {
     margin-bottom: 10px;
 }
 #contact {
-    background: url(../img/contact-cover.jpg);
+    background: url(../img/cover/contact.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
