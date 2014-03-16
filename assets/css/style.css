@@ -156,44 +156,23 @@ a:hover, a:focus {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 60px;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-delay: 0.5s;
-    -moz-animation-delay: 0.5s;
-    -o-animation-delay: 0.5s;
-    animation-delay: 0.5s;
 }
 #home a {
-    margin: 0 5px;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-delay: 1.5s;
-    -moz-animation-delay: 1.5s;
-    -o-animation-delay: 1.5s;
-    animation-delay: 1.5s;
+    margin: 0 5px
 }
 #home h3 {
     margin-top: 20px;
     margin-bottom: 0;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-delay: 1.2s;
-    -moz-animation-delay: 1.2s;
-    -o-animation-delay: 1.2s;
-    animation-delay: 1.2s;
 }
 #services {
     background-color: #f5f5f5;
     border-bottom: solid 1px #e7e7e7;
 }
-#services i {
+#services .service i {
     margin-top: 60px
+}
+#services .service:hover i {
+    color: #71be3c
 }
 #work .heading p {
     margin-bottom: 45px

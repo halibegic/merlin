@@ -47,6 +47,13 @@ function initAnimations() {
     }, {
         accY: -80
     });
+
+    // Service hover animation
+	$('.service').hover(function(){
+		$('i', this).addClass('animated tada');
+	},function(){	
+        $('i', this).removeClass('animated tada');
+	});
 }
 
 function initTwitterFeed() {
