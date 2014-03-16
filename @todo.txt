@@ -1,3 +1,2 @@
 - Create blog
 - Create new design for work section
-- Create new design for about section
