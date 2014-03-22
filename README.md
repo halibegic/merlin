@@ -13,6 +13,7 @@ Free template with [Twitter Bootstrap](http://getbootstrap.com/) framework.
  * [Isotope](https://github.com/desandro/isotope)
  * [ImagesLoaded](https://github.com/desandro/imagesloaded)
  * [Animate.css](http://daneden.github.io/animate.css/)
+ * [Twitter Post Fetcher](http://jasonmayes.com/projects/twitterApi)
  * [jQuery Scroll To](http://flesler.blogspot.com/2007/10/jqueryscrollto.html)
  * [jQuery One Page Nav](https://github.com/davist11/jQuery-One-Page-Nav)
  * [jQuery Appear](https://github.com/bas2k/jquery.appear/)
