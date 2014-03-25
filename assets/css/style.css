@@ -200,29 +200,47 @@ a:hover, a:focus {
 #work #portfolio .items li {
     width: 25%;
     float: left;
+    overflow: hidden;
     position: relative;
 }
 #work #portfolio .items li a img {
     width: 100%;
     height: 100%;
-    -webkit-transition: 250ms linear all;
-    -moz-transition: 250ms linear all;
-    transition: 250ms linear all;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
-#work #portfolio .items li a span {
+#work #portfolio .items li a .overlay {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.6);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#work #portfolio .items li a .overlay span {
     left: 20px;
     bottom: 20px;
     color: #fff;
-    font-size: 14px;
-    display: none;
     position: absolute;
+    text-transform: uppercase;
+}
+#work #portfolio .items li a:hover .overlay {
+    opacity: 1
 }
 #work #portfolio .items li a:hover img {
-    -webkit-filter: grayscale(100%) brightness(0.3);
-    filter: grayscale(100%) brightness(0.3);
-}
-#work #portfolio .items li a:hover span {
-    display: block
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 #clients {
     color: #fff;
@@ -300,8 +318,10 @@ a:hover, a:focus {
     transition: all .4s ease;
 }
 #about .teammate:hover .photo img, #about .teammate:focus .photo img {
-    -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
     transform: scale(1.1);
 }
 #about .teammate .bio .border {
