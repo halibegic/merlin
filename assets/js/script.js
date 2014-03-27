@@ -66,7 +66,7 @@ function initAnimations() {
             el.removeClass('hiding');
         }
     }, {
-        accY: -80
+        accY: -60
     });
 
     // Service hover animation
