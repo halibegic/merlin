@@ -74,18 +74,18 @@ a:focus {
   background-color: #2a3940;
 }
 .loader {
-  width: 100%;
-  height: 100%;
   position: fixed;
   z-index: 100000;
+  width: 100%;
+  height: 100%;
   background-color: #fff;
 }
 .fading-line {
+  position: absolute;
   top: 50%;
   left: 50%;
   width: 40px;
   height: 40px;
-  position: absolute;
   margin: -20px 0 0 -20px;
   background-image: url(../img/fading-line.gif);
   background-repeat: no-repeat;
@@ -97,10 +97,10 @@ a:focus {
 .navbar-default {
   border-top: 0;
   margin-bottom: 0;
+  background-color: #fff;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-  background-color: #fff;
 }
 .navbar-default .navbar-brand {
   font-weight: 600;
@@ -128,8 +128,8 @@ a:focus {
 }
 .navbar-default.affix {
   top: 0;
-  width: 100%;
   z-index: 99;
+  width: 100%;
   border-bottom-color: transparent;
   -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
   -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
@@ -212,10 +212,10 @@ a:focus {
   margin-bottom: 0
 }
 #work #portfolio .items li {
-  width: 25%;
-  float: left;
-  overflow: hidden;
   position: relative;
+  float: left;
+  width: 25%;
+  overflow: hidden;
 }
 #work #portfolio .items li a img {
   width: 100%;
@@ -225,24 +225,24 @@ a:focus {
   transition: all 0.3s ease-in-out;
 }
 #work #portfolio .items li a .overlay {
+  position: absolute;
   top: 0;
   left: 0;
-  opacity: 0;
   width: 100%;
   height: 100%;
-  position: absolute;
   background-color: #000;
   background-color: rgba(0,0,0,0.6);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  opacity: 0;
 }
 #work #portfolio .items li a .overlay span {
+  position: absolute;
   left: 20px;
   bottom: 20px;
   color: #fff;
-  position: absolute;
   text-transform: uppercase;
 }
 #work #portfolio .items li a:hover .overlay {
@@ -263,13 +263,13 @@ a:focus {
   margin-bottom: 30px
 }
 #clients #testimonials .quote {
-  font-size: 16px;
   padding: 0 90px;
+  font-size: 16px;
 }
 #clients #testimonials .quote:before {
-  content: '\f10d';
   margin-right: 10px;
   font-family: fontawesome;
+  content: '\f10d';
 }
 #clients #testimonials .client {
   color: #ccc
@@ -294,8 +294,8 @@ a:focus {
   width: 9px;
   height: 9px;
   margin: 1px;
-  border-color: #fff;
   background-color: #71be3c;
+  border-color: #fff;
 }
 #clients #testimonials .carousel-indicators {
   bottom: 0;
@@ -306,8 +306,8 @@ a:focus {
   width: 0%;
   display: none;
   font-size: 40px;
-  text-shadow: none;
   background-image: none;
+  text-shadow: none;
 }
 #about .content {
   padding-bottom: 0
@@ -344,8 +344,8 @@ a:focus {
   margin: 15px auto;
 }
 #about .teammate .bio ul {
-  font-size: 16px;
   margin-bottom: 0;
+  font-size: 16px;
 }
 #about .teammate .bio a {
   color: #666
@@ -364,8 +364,8 @@ a:focus {
   margin-bottom: 0
 }
 #about .twitter i {
-  color: #00aced;
   margin-bottom: 10px;
+  color: #00aced;
 }
 #contact {
   background: url(../img/cover/contact.jpg);
@@ -389,8 +389,8 @@ a:focus {
   margin: 60px 0 15px
 }
 #footer {
-  color: #ccc;
   padding: 40px 0;
+  color: #ccc;
   text-align: center;
   background-color: #2a3940;
 }
