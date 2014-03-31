@@ -303,20 +303,20 @@ a:hover, a:focus {
 #about .teammate .bio {
   padding-top: 10px
 }
-#about .teammate .photo {
+#about .teammate .photo-rounded {
   overflow: hidden;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
 }
-#about .teammate .photo img {
+#about .teammate .photo-rounded img {
   -webkit-transition: all .4s ease;
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
   -ms-transition: all .4s ease;
   transition: all .4s ease;
 }
-#about .teammate:hover .photo img, #about .teammate:focus .photo img {
+#about .teammate:hover .photo-rounded img, #about .teammate:focus .photo-rounded img {
   -ms-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
