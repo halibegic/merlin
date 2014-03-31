@@ -156,31 +156,31 @@ a:focus {
 #services .service i { margin-top: 60px }
 #services .service:hover i { color: #71be3c }
 #work .heading p { margin-bottom: 60px }
-#work #portfolio { width: 100% }
-#work #portfolio .filters { margin-bottom: 20px }
-#work #portfolio .filters li a {
+#portfolio { width: 100% }
+#portfolio .filters { margin-bottom: 20px }
+#portfolio .filters li a {
   color: #999;
   font-weight: 600;
   text-transform: uppercase;
 }
-#work #portfolio .filters li a:hover,
-#work #portfolio .filters li a:focus { color: #333 }
-#work #portfolio .filters li a.active { color: #0093cf }
-#work #portfolio .items { margin-bottom: 0 }
-#work #portfolio .items li {
+#portfolio .filters li a:hover,
+#portfolio .filters li a:focus { color: #333 }
+#portfolio .filters li a.active { color: #0093cf }
+#portfolio .items { margin-bottom: 0 }
+#portfolio .items li {
   position: relative;
   float: left;
   width: 25%;
   overflow: hidden;
 }
-#work #portfolio .items li a img {
+#portfolio .items li a img {
   width: 100%;
   -webkit-transition: all 0.3s ease-in-out;
      -moz-transition: all 0.3s ease-in-out;
        -o-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out;
 }
-#work #portfolio .items li a .overlay {
+#portfolio .items li a .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -194,15 +194,15 @@ a:focus {
          transition: all 0.3s ease-in-out;
   opacity: 0;
 }
-#work #portfolio .items li a .overlay span {
+#portfolio .items li a .overlay span {
   position: absolute;
   left: 20px;
   bottom: 20px;
   color: #fff;
   text-transform: uppercase;
 }
-#work #portfolio .items li a:hover .overlay { opacity: 1 }
-#work #portfolio .items li a:hover img {
+#portfolio .items li a:hover .overlay { opacity: 1 }
+#portfolio .items li a:hover img {
   -webkit-transform: scale(1.1);
      -moz-transform: scale(1.1);
       -ms-transform: scale(1.1);
@@ -213,18 +213,18 @@ a:focus {
   color: #fff;
   background-color: #2a3940;
 }
-#clients #testimonials .item { margin-bottom: 30px }
-#clients #testimonials .quote {
+#testimonials .item { margin-bottom: 30px }
+#testimonials .quote {
   padding: 0 90px;
   font-size: 16px;
 }
-#clients #testimonials .quote:before {
+#testimonials .quote:before {
   margin-right: 10px;
   font-family: fontawesome;
   content: '\f10d';
 }
-#clients #testimonials .client { color: #ccc }
-#clients #testimonials .carousel-indicators li {
+#testimonials .client { color: #ccc }
+#testimonials .carousel-indicators li {
   width: 9px;
   height: 9px;
   border-color: #a6a6a6;
@@ -236,20 +236,20 @@ a:focus {
        -o-transition: all 0.25s linear;
           transition: all 0.25s linear;
 }
-#clients #testimonials .carousel-indicators li:hover,
-#clients #testimonials .carousel-indicators li:focus { border-color: #fff }
-#clients #testimonials .carousel-indicators .active {
+#testimonials .carousel-indicators li:hover,
+#testimonials .carousel-indicators li:focus { border-color: #fff }
+#testimonials .carousel-indicators .active {
   width: 9px;
   height: 9px;
   margin: 1px;
   background-color: #71be3c;
   border-color: #fff;
 }
-#clients #testimonials .carousel-indicators {
+#testimonials .carousel-indicators {
   bottom: 0;
   margin-bottom: 0;
 }
-#clients #testimonials .carousel-control {
+#testimonials .carousel-control {
   top: 15%;
   width: 0%;
   display: none;
@@ -335,21 +335,21 @@ a:focus {
 #footer .social li .dribbble:hover,
 #footer .social li .dribbble:focus { color: #ea4c89 }
 #footer .copyright { margin-bottom: 0 }
-/* responsive */
+/* Responsive style */
 @media screen and (max-width: 1024px) { 
-  #clients #testimonials .carousel-control { display: block }
+  #testimonials .carousel-control { display: block }
 }
 @media screen and (max-width: 991px) { 
-  #work #portfolio .items li { width: 50% }
-  #clients #testimonials .quote { padding: 0 70px }
+  #portfolio .items li { width: 50% }
+  #testimonials .quote { padding: 0 70px }
 }
 @media (max-width: 767px) { 
   .page .content.cover { padding: 160px 0 }
-  #clients #testimonials .quote { padding: 0 50px }
-  #clients #testimonials .carousel-control.right { right: 10px }
+  #testimonials .quote { padding: 0 50px }
+  #testimonials .carousel-control.right { right: 10px }
 }
 @media (max-width: 480px) { 
   .page .content.cover { padding: 80px 0 }
-  #work #portfolio .items li { width: 100% }
-  #clients #testimonials .quote { padding: 0 30px }
+  #portfolio .items li { width: 100% }
+  #testimonials .quote { padding: 0 30px }
 }
