@@ -8,27 +8,17 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-weight: 300
-}
+h6 { font-weight: 300 }
 *,
-*:focus {
-  outline: none !important
-}
-a {
-  color: #2d2d2d
-}
+*:focus { outline: none !important }
+a { color: #2d2d2d }
 a:hover,
 a:focus {
   color: #0c86b6;
   text-decoration: none;
 }
-.hiding {
-  opacity: 0
-}
-.showing {
-  opacity: 1
-}
+.hiding { opacity: 0 }
+.showing { opacity: 1 }
 .img-rounded {
   -webkit-border-radius: 8px;
      -moz-border-radius: 8px;
@@ -91,9 +81,7 @@ a:focus {
   background-repeat: no-repeat;
   background-position: center center;
 }
-#navbar-top {
-  min-height: 51px
-}
+#navbar-top { min-height: 51px }
 .navbar-default {
   border-top: 0;
   margin-bottom: 0;
@@ -116,16 +104,10 @@ a:focus {
   color: #0093cf;
   background-color: transparent;
 }
-.navbar-default .navbar-toggle {
-  border-color: transparent
-}
+.navbar-default .navbar-toggle { border-color: transparent }
 .navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: transparent
-}
-.navbar-default .navbar-toggle:hover .icon-bar {
-  background-color: #333
-}
+.navbar-default .navbar-toggle:focus { background-color: transparent }
+.navbar-default .navbar-toggle:hover .icon-bar { background-color: #333 }
 .navbar-default.affix {
   top: 0;
   z-index: 99;
@@ -135,15 +117,9 @@ a:focus {
      -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
           box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
 }
-.page {
-  overflow: hidden
-}
-.page .content {
-  padding: 60px 0
-}
-.page .content.cover {
-  padding: 240px 0
-}
+.page { overflow: hidden }
+.page .content { padding: 60px 0 }
+.page .content.cover { padding: 240px 0 }
 .page .heading h2 {
   margin-top: 0;
   margin-bottom: 20px;
@@ -154,9 +130,7 @@ a:focus {
   margin: 0 auto;
   background-color: #71be3c;
 }
-.page .heading p {
-  margin: 20px auto 0
-}
+.page .heading p { margin: 20px auto 0 }
 #home {
   padding: 0;
   color: #fff;
@@ -170,9 +144,7 @@ a:focus {
   margin-bottom: 20px;
   font-size: 60px;
 }
-#home a {
-  margin: 0 5px
-}
+#home a { margin: 0 5px }
 #home h3 {
   margin-top: 20px;
   margin-bottom: 0;
@@ -181,36 +153,20 @@ a:focus {
   background-color: #f5f5f5;
   border-bottom: solid 1px #e7e7e7;
 }
-#services .service i {
-  margin-top: 60px
-}
-#services .service:hover i {
-  color: #71be3c
-}
-#work .heading p {
-  margin-bottom: 60px
-}
-#work #portfolio {
-  width: 100%
-}
-#work #portfolio .filters {
-  margin-bottom: 20px
-}
+#services .service i { margin-top: 60px }
+#services .service:hover i { color: #71be3c }
+#work .heading p { margin-bottom: 60px }
+#work #portfolio { width: 100% }
+#work #portfolio .filters { margin-bottom: 20px }
 #work #portfolio .filters li a {
   color: #999;
   font-weight: 600;
   text-transform: uppercase;
 }
 #work #portfolio .filters li a:hover,
-#work #portfolio .filters li a:focus {
-  color: #333
-}
-#work #portfolio .filters li a.active {
-  color: #0093cf
-}
-#work #portfolio .items {
-  margin-bottom: 0
-}
+#work #portfolio .filters li a:focus { color: #333 }
+#work #portfolio .filters li a.active { color: #0093cf }
+#work #portfolio .items { margin-bottom: 0 }
 #work #portfolio .items li {
   position: relative;
   float: left;
@@ -245,9 +201,7 @@ a:focus {
   color: #fff;
   text-transform: uppercase;
 }
-#work #portfolio .items li a:hover .overlay {
-  opacity: 1
-}
+#work #portfolio .items li a:hover .overlay { opacity: 1 }
 #work #portfolio .items li a:hover img {
   -webkit-transform: scale(1.1);
      -moz-transform: scale(1.1);
@@ -259,9 +213,7 @@ a:focus {
   color: #fff;
   background-color: #2a3940;
 }
-#clients #testimonials .item {
-  margin-bottom: 30px
-}
+#clients #testimonials .item { margin-bottom: 30px }
 #clients #testimonials .quote {
   padding: 0 90px;
   font-size: 16px;
@@ -271,9 +223,7 @@ a:focus {
   font-family: fontawesome;
   content: '\f10d';
 }
-#clients #testimonials .client {
-  color: #ccc
-}
+#clients #testimonials .client { color: #ccc }
 #clients #testimonials .carousel-indicators li {
   width: 9px;
   height: 9px;
@@ -287,9 +237,7 @@ a:focus {
           transition: all 0.25s linear;
 }
 #clients #testimonials .carousel-indicators li:hover,
-#clients #testimonials .carousel-indicators li:focus {
-  border-color: #fff
-}
+#clients #testimonials .carousel-indicators li:focus { border-color: #fff }
 #clients #testimonials .carousel-indicators .active {
   width: 9px;
   height: 9px;
@@ -309,15 +257,9 @@ a:focus {
   background-image: none;
   text-shadow: none;
 }
-#about .content {
-  padding-bottom: 0
-}
-#about .teammate {
-  margin-top: 60px
-}
-#about .teammate .bio {
-  padding-top: 10px
-}
+#about .content { padding-bottom: 0 }
+#about .teammate { margin-top: 60px }
+#about .teammate .bio { padding-top: 10px }
 #about .teammate .photo-rounded {
   overflow: hidden;
   -webkit-border-radius: 8px;
@@ -347,22 +289,16 @@ a:focus {
   margin-bottom: 0;
   font-size: 16px;
 }
-#about .teammate .bio a {
-  color: #666
-}
+#about .teammate .bio a { color: #666 }
 #about .teammate .bio a:hover,
-#about .teammate .bio a:focus {
-  color: #222
-}
+#about .teammate .bio a:focus { color: #222 }
 #about .twitter {
   padding: 20px 0;
   margin-top: 60px;
   background-color: #f5f5f5;
   border-top: solid 1px #e7e7e7;
 }
-#about .twitter p {
-  margin-bottom: 0
-}
+#about .twitter p { margin-bottom: 0 }
 #about .twitter i {
   margin-bottom: 10px;
   color: #00aced;
@@ -376,18 +312,10 @@ a:focus {
 #contact,
 #contact a,
 #contact a:hover,
-#contact a:focus {
-  color: #fff
-}
-#contact .heading .border {
-  background-color: #fff
-}
-#contact a {
-  display: block
-}
-#contact i {
-  margin: 60px 0 15px
-}
+#contact a:focus { color: #fff }
+#contact .heading .border { background-color: #fff }
+#contact a { display: block }
+#contact i { margin: 60px 0 15px }
 #footer {
   padding: 40px 0;
   color: #ccc;
@@ -396,64 +324,32 @@ a:focus {
 }
 #footer a,
 #footer a:hover,
-#footer a:focus {
-  color: #fff
-}
-#footer .social {
-  margin-bottom: 20px
-}
+#footer a:focus { color: #fff }
+#footer .social { margin-bottom: 20px }
 #footer .social li .facebook:hover,
-#footer .social li .facebook:focus {
-  color: #3b5998
-}
+#footer .social li .facebook:focus { color: #3b5998 }
 #footer .social li .twitter:hover,
-#footer .social li .twitter:focus {
-  color: #00aced
-}
+#footer .social li .twitter:focus { color: #00aced }
 #footer .social li .google-plus:hover,
-#footer .social li .google-plus:focus {
-  color: #d34836
-}
+#footer .social li .google-plus:focus { color: #d34836 }
 #footer .social li .dribbble:hover,
-#footer .social li .dribbble:focus {
-  color: #ea4c89
-}
-#footer .copyright {
-  margin-bottom: 0
-}
+#footer .social li .dribbble:focus { color: #ea4c89 }
+#footer .copyright { margin-bottom: 0 }
 /* responsive */
 @media screen and (max-width: 1024px) { 
-  #clients #testimonials .carousel-control {
-    display: block
-  }
+  #clients #testimonials .carousel-control { display: block }
 }
 @media screen and (max-width: 991px) { 
-  #work #portfolio .items li {
-    width: 50%
-  }
-  #clients #testimonials .quote {
-    padding: 0 70px
-  }
+  #work #portfolio .items li { width: 50% }
+  #clients #testimonials .quote { padding: 0 70px }
 }
 @media (max-width: 767px) { 
-  .page .content.cover {
-    padding: 160px 0
-  }
-  #clients #testimonials .quote {
-    padding: 0 50px
-  }
-  #clients #testimonials .carousel-control.right {
-    right: 10px
-  }
+  .page .content.cover { padding: 160px 0 }
+  #clients #testimonials .quote { padding: 0 50px }
+  #clients #testimonials .carousel-control.right { right: 10px }
 }
 @media (max-width: 480px) { 
-  .page .content.cover {
-    padding: 80px 0
-  }
-  #work #portfolio .items li {
-    width: 100%
-  }
-  #clients #testimonials .quote {
-    padding: 0 30px
-  }
+  .page .content.cover { padding: 80px 0 }
+  #work #portfolio .items li { width: 100% }
+  #clients #testimonials .quote { padding: 0 30px }
 }
