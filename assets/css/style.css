@@ -31,20 +31,20 @@ a:focus {
 }
 .img-rounded {
   -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
 }
 .btn {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
   -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
   -webkit-transition: all .2s;
-  -moz-transition: all .2s;
-  -ms-transition: all .2s;
-  transition: all .2s;
+     -moz-transition: all .2s;
+      -ms-transition: all .2s;
+          transition: all .2s;
 }
 .btn-blue {
   color: #fff;
@@ -99,8 +99,8 @@ a:focus {
   margin-bottom: 0;
   background-color: #fff;
   -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
 }
 .navbar-default .navbar-brand {
   font-weight: 600;
@@ -132,8 +132,8 @@ a:focus {
   width: 100%;
   border-bottom-color: transparent;
   -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
-  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+     -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
+          box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
 }
 .page {
   overflow: hidden
@@ -220,9 +220,9 @@ a:focus {
 #work #portfolio .items li a img {
   width: 100%;
   -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
 }
 #work #portfolio .items li a .overlay {
   position: absolute;
@@ -233,9 +233,9 @@ a:focus {
   background-color: #000;
   background-color: rgba(0,0,0,0.6);
   -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+         transition: all 0.3s ease-in-out;
   opacity: 0;
 }
 #work #portfolio .items li a .overlay span {
@@ -249,11 +249,11 @@ a:focus {
   opacity: 1
 }
 #work #portfolio .items li a:hover img {
-  transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
-  -o-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+       -o-transform: scale(1.1);
+          transform: scale(1.1);
 }
 #clients {
   color: #fff;
@@ -278,13 +278,13 @@ a:focus {
   width: 9px;
   height: 9px;
   -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
   border-color: #a6a6a6;
   -webkit-transition: all 0.25s linear;
-  -moz-transition: all 0.25s linear;
-  -o-transition: all 0.25s linear;
-  transition: all 0.25s linear;
+     -moz-transition: all 0.25s linear;
+       -o-transition: all 0.25s linear;
+          transition: all 0.25s linear;
 }
 #clients #testimonials .carousel-indicators li:hover,
 #clients #testimonials .carousel-indicators li:focus {
@@ -321,23 +321,23 @@ a:focus {
 #about .teammate .photo-rounded {
   overflow: hidden;
   -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-}
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+}     
 #about .teammate .photo-rounded img {
   -webkit-transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  -o-transition: all .4s ease;
-  -ms-transition: all .4s ease;
-  transition: all .4s ease;
+     -moz-transition: all .4s ease;
+      -ms-transition: all .4s ease;
+       -o-transition: all .4s ease;
+          transition: all .4s ease;
 }
 #about .teammate:hover .photo-rounded img,
 #about .teammate:focus .photo-rounded img {
-  -ms-transform: scale(1.1);
-  -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+     -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+       -o-transform: scale(1.1);
+          transform: scale(1.1);
 }
 #about .teammate .bio .border {
   height: 1px;
