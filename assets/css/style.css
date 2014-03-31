@@ -83,9 +83,9 @@ a:focus {
 }
 #navbar-top { min-height: 51px }
 .navbar-default {
-  border-top: 0;
   margin-bottom: 0;
   background-color: #fff;
+  border-top: 0;
   -webkit-border-radius: 0;
      -moz-border-radius: 0;
           border-radius: 0;
@@ -227,10 +227,10 @@ a:focus {
 #clients #testimonials .carousel-indicators li {
   width: 9px;
   height: 9px;
+  border-color: #a6a6a6;
   -webkit-border-radius: 2px;
      -moz-border-radius: 2px;
           border-radius: 2px;
-  border-color: #a6a6a6;
   -webkit-transition: all 0.25s linear;
      -moz-transition: all 0.25s linear;
        -o-transition: all 0.25s linear;
