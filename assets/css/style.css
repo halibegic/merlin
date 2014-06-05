@@ -267,21 +267,18 @@ a:focus {
 #about .content { padding-bottom: 0 }
 #about .teammate { margin-top: 60px }
 #about .teammate .bio { padding-top: 10px }
-#about .teammate .photo-rounded {
-  overflow: hidden;
-  -webkit-border-radius: 8px;
-     -moz-border-radius: 8px;
-          border-radius: 8px;
+#about .teammate .profile-photo {
+  overflow: hidden
 }     
-#about .teammate .photo-rounded img {
+#about .teammate .profile-photo img {
   -webkit-transition: all .4s ease;
      -moz-transition: all .4s ease;
       -ms-transition: all .4s ease;
        -o-transition: all .4s ease;
           transition: all .4s ease;
 }
-#about .teammate:hover .photo-rounded img,
-#about .teammate:focus .photo-rounded img {
+#about .teammate:hover .profile-photo img,
+#about .teammate:focus .profile-photo img {
   -webkit-transform: scale(1.1);
      -moz-transform: scale(1.1);
       -ms-transform: scale(1.1);
