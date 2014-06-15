@@ -265,7 +265,10 @@ a:focus {
   text-shadow: none;
 }
 #about .content { padding-bottom: 0 }
-#about .teammate { margin-top: 60px }
+#about .teammate { 
+  margin-top: 60px; 
+  margin-bottom: 60px; 
+}
 #about .teammate .bio { padding-top: 10px }
 #about .teammate .profile-photo {
   overflow: hidden
@@ -298,7 +301,6 @@ a:focus {
 #about .teammate .bio a:focus { color: #222 }
 #about .twitter {
   padding: 20px 0;
-  margin-top: 60px;
   background-color: #f5f5f5;
   border-top: solid 1px #e7e7e7;
 }
