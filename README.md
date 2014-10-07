@@ -22,7 +22,7 @@ Free template with [Twitter Bootstrap](http://getbootstrap.com/) framework.
 
 ### Copyright and License
 
-Copyright 2014 [Hasan Alibegic](http://www.twitter.com/halibegic)
+Copyright 2014 [Hasan Alibegić](http://www.twitter.com/halibegic)
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
