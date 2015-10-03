@@ -1,10 +1,8 @@
 /*
-
 Merlin - Responsive One Page Template
 Version: 1.0
 By: Hasan Alibegic, hasan461@gmail.com
 License: Apache License v2.0
-
 */
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -341,6 +339,9 @@ a:focus {
 #footer .social li .dribbble:hover,
 #footer .social li .dribbble:focus { color: #ea4c89 }
 #footer .copyright { margin-bottom: 0 }
+.work .title {
+  color: #222;
+}
 /* Responsive style */
 @media screen and (max-width: 1024px) { 
   #testimonials .carousel-control { display: block }
