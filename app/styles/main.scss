@@ -1,3 +1,10 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
+// endbower
+
 /*
 Merlin - Responsive One Page Template
 Version: 1.0
@@ -5,7 +12,7 @@ By: Hasan Alibegic, hasan461@gmail.com
 License: Apache License v2.0
 */
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #444;
 }
 h1,
@@ -82,7 +89,7 @@ a:focus {
   width: 40px;
   height: 40px;
   margin: -20px 0 0 -20px;
-  background-image: url(../img/fading-line.gif);
+  background-image: url(../images/fading-line.gif);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -139,7 +146,7 @@ a:focus {
 #home {
   padding: 0;
   color: #fff;
-  background-image: url(../img/cover/home.jpg);
+  background-image: url(../images/cover/home.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -263,14 +270,14 @@ a:focus {
   text-shadow: none;
 }
 #about .content { padding-bottom: 0 }
-#about .teammate { 
-  margin-top: 60px; 
-  margin-bottom: 60px; 
+#about .teammate {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 #about .teammate .bio { padding-top: 10px }
 #about .teammate .profile-photo {
   overflow: hidden
-}     
+}
 #about .teammate .profile-photo img {
   -webkit-transition: all .4s ease;
      -moz-transition: all .4s ease;
@@ -308,7 +315,7 @@ a:focus {
   color: #00aced;
 }
 #contact {
-  background: url(../img/cover/contact.jpg);
+  background: url(../images/cover/contact.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -343,19 +350,19 @@ a:focus {
   color: #222;
 }
 /* Responsive style */
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
   #testimonials .carousel-control { display: block }
 }
-@media screen and (max-width: 991px) { 
+@media screen and (max-width: 991px) {
   #portfolio .items li { width: 50% }
   #testimonials .quote { padding: 0 70px }
 }
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
   .page .content.cover { padding: 160px 0 }
   #testimonials .quote { padding: 0 50px }
   #testimonials .carousel-control.right { right: 10px }
 }
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
   .page .content.cover { padding: 80px 0 }
   #portfolio .items li { width: 100% }
   #testimonials .quote { padding: 0 30px }

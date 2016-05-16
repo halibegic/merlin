@@ -1,0 +1,30 @@
+{
+  "name": "merlin",
+  "private": true,
+  "dependencies": {
+    "animate.css": "~3.5.1",
+    "bootstrap-sass": "~3.3.6",
+    "font-awesome": "~4.6.3",
+    "imagesloaded": "~4.1.0",
+    "isotope": "~3.0.0",
+    "jquery": "~2.2.3",
+    "jQuery-One-Page-Nav": "~3.0.0",
+    "jquery.scrollTo": "~2.1.2",
+    "jquery.appear": "*",
+    "twitter-fetcher": "~15.0.1",
+    "venobox": "~1.6.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  }
+}

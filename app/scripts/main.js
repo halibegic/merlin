@@ -17,7 +17,7 @@ function initNavbar() {
     $('.nav-external').click(function (e) {
         e.preventDefault();
         $('html, body').stop().animate({
-            scrollTop: $($(this).attr("href")).offset().top - scrollOffset
+            scrollTop: $($(this).attr('href')).offset().top - scrollOffset
         }, scrollSpeed, easing);
     });
 
@@ -29,7 +29,7 @@ function initNavbar() {
 }
 function initPortfolio () {
     var portfolio = $('#portfolio');
-    var items = $('.items', portfolio); 
+    var items = $('.items', portfolio);
     var filters = $('.filters li a', portfolio);
 
     items.imagesLoaded(function() {
@@ -39,7 +39,7 @@ function initPortfolio () {
             transitionDuration: '0.7s'
         });
     });
-    
+
     filters.click(function(){
         var el = $(this);
         filters.removeClass('active');
@@ -53,7 +53,7 @@ function initPortfolio () {
         border: '0 10px',
         numeratio: true,
         infinigall: true
-    }); 
+    });
 }
 function initAnimations() {
     $('.animated').appear(function () {
@@ -76,16 +76,27 @@ function initAnimations() {
     });
 
     // Service hover animation
-	$('.service').hover(function(){
-		$('i', this).addClass('animated tada');
-	},function(){	
+    $('.service').hover(function(){
+        $('i', this).addClass('animated tada');
+    },function(){
         $('i', this).removeClass('animated tada');
-	});
+    });
 }
 
 function initTwitterFeed() {
     /* More about fetch params on http://www.jasonmayes.com/projects/twitterApi */
-    twitterFetcher.fetch('500674157688782849', '', 1, true, false, false, '', true, handleTweets, false);
+    twitterFetcher.fetch({
+        'id': '500674157688782849',
+        'domId': '',
+        'maxTweets': 1,
+        'enableLinks': true,
+        'showUser': false,
+        'showTime': false,
+        'dateFunction': '',
+        'showRetweet': true,
+        'customCallback': handleTweets,
+        'showInteraction': false
+    });
 }
 $(document).ready(function () {
     initNavbar();
@@ -94,8 +105,8 @@ $(document).ready(function () {
     initTwitterFeed();
 });
 $(window).load(function () {
-    $(".loader .fading-line").fadeOut();
-    $(".loader").fadeOut("slow");
+    $('.loader .fading-line').fadeOut();
+    $('.loader').fadeOut('slow');
 });
 function handleTweets(tweets) {
     var element = document.getElementById('feed');
