@@ -27,7 +27,7 @@ function initNavbar() {
         e.preventDefault();
 
         $('html, body').stop().animate({
-            scrollTop: $($(this).attr("href")).offset().top - scrollOffset
+            scrollTop: $($(this).attr("href")).offset().top - SCROLL_OFFSET
         }, scrollSpeed, easing);
     });
 }
