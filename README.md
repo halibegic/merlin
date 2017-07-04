@@ -8,6 +8,7 @@ Free template with [Twitter Bootstrap](http://getbootstrap.com/) framework.
 
 ### Credits
  * [jQuery](http://jquery.com/)
+ * [Tether](http://tether.io/)
  * [Bootstrap](http://getbootstrap.com/)
  * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
  * [Isotope](https://github.com/desandro/isotope)
@@ -17,8 +18,7 @@ Free template with [Twitter Bootstrap](http://getbootstrap.com/) framework.
  * [jQuery One Page Nav](https://github.com/davist11/jQuery-One-Page-Nav)
  * [jQuery Appear](https://github.com/morr/jquery.appear)
  * [VenoBox](http://lab.veno.it/venobox/)
- * [Unsplash](http://unsplash.com/)
- * [Stockvault](https://www.stockvault.net/c/people)
+ * [Gratisography](http://www.gratisography.com/)
 
 ### Copyright and License
 
