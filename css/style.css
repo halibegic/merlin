@@ -5,10 +5,6 @@ By: Hasan Alibegic, hasan461@gmail.com
 License: Apache License v2.0
 */
 
-html {
-    font-size: 14px;
-}
-
 body {
     font-family: "Source Sans Pro", sans-serif;
 }
@@ -55,7 +51,7 @@ a:focus {
 
 .btn {
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 600;
     text-transform: uppercase;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -167,13 +163,13 @@ a:focus {
 }
 
 .navbar-light .navbar-brand {
-    font-weight: bold;
+    font-weight: 600;
     color: #666;
     text-transform: uppercase;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    font-weight: bold;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
@@ -276,7 +272,7 @@ a:focus {
 
 #portfolio .filters li a {
     color: #999;
-    font-weight: bold;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
@@ -542,7 +538,6 @@ a:focus {
     }
 }
 
-
 /* Responsive style */
 
 @media (min-width: 576px) {
@@ -560,8 +555,8 @@ a:focus {
 
 @media (min-width: 768px) {
     .page .content.cover {
-        margin-top: 16rem;
-        margin-bottom: 16rem;
+        margin-top: 14rem;
+        margin-bottom: 14rem;
     }
     #portfolio .items li {
         width: 25%;
@@ -573,13 +568,13 @@ a:focus {
 
 @media (min-width: 992px) {
     .page .content.cover {
-        margin-top: 20rem;
-        margin-bottom: 20rem;
+        margin-top: 16rem;
+        margin-bottom: 16rem;
     }
     .navbar-light .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem;
-        font-weight: bold;
+        font-weight: 600;
         text-transform: uppercase;
     }
     #testimonials .quote {
